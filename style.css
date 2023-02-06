@@ -16,7 +16,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165));
+    background-image: linear-gradient( to bottom right, rgba(79,51,176,1.0),rgba(210,53,165),rgb(101, 179, 190));
 }
 
 .container {
@@ -31,14 +31,14 @@ body {
     height: auto;
     width: auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 0 0 30px #000;
 }
 
 .theme-toggler {
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 20px;
+    right: 300px;
     color: #fff;
     cursor: pointer;
     z-index: 1;
@@ -66,7 +66,7 @@ body {
 
 #display {
     margin: 0 10px;
-    height: 150px;
+    height: 50px;
     width: auto;
     max-width: 270px;
     display: flex;
